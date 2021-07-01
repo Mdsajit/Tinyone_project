@@ -1,0 +1,288 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+   font-family: PTSans-Bold.ttf;
+   src: url(../fonts/pt-sans/PTSans-Bold.ttf.ttf);
+}
+@font-face{
+	font-family: PTSans-Regular.ttf;
+	src: url(../fonts/pt-sans/PTSans-Regular.ttf);
+}
+
+body{
+
+	font-family: PTS55F.ttf;
+	font-weight: 400 ;
+	color: #010101;
+}
+
+/*header css start*/
+.header{
+  padding: 40px 0;
+  background: #fcdb00;
+}
+.container{
+ width: 70%;
+ overflow: hidden;
+ margin: 0 auto;
+ /*border: 1px solid red;*/
+}
+.logo{
+	width: 14%;
+	float: left;
+	margin-top: 6px;
+}
+.logo img{
+	width: 100%;
+}
+.header_menu{
+	width: 85%;
+	float: right;
+}
+.header_menu ul{
+	text-align: right;
+}
+.header_menu ul li{
+	display: inline-block;
+}
+.header_menu ul li a{
+	display: block;
+	text-decoration: none;
+	font-family: PTSans-Bold.ttf;
+	font-size: 22px;
+	font-weight: bold;
+	color: #010101;
+	padding: 15px 35px;
+	transition: .4s;
+}
+.header_menu ul li a:hover{
+	color: white;
+}
+/*header css end*/
+/*banner css start*/
+.banner{
+	background: #fcdb00;
+	min-height: 600px;
+}
+.banner_left{
+	width: 60%;
+	float: left;
+	margin-right: 4%;
+	margin-top: 80px;
+}
+.banner_left h1{
+	font-size: 32px;
+	font-family: PTSans-Bold.ttf;
+	font-weight: 700;
+	margin-bottom: 20px;
+
+}
+.banner_left h5{
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+	line-height: 28px;
+}
+.banner_left p{
+	font-weight: 400;
+	font-size: 16px;
+	color: #555555;
+	line-height: 26px;
+	margin-top: 20px;
+	padding-right: 30px;
+}
+.banner_left img{
+	width: 50px;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+.banner_right{
+	width: 30%;
+	float: right;
+	margin-right: 5%;
+}
+.banner_right img{
+	width: 100%;
+}
+
+/*banner css end*/
+/*feature css start*/
+.feature_section{
+	padding: 80px 0;
+
+}
+.feature_title{
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+}
+.feature_title h1{
+	font-size:32px ;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.feature_title p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #313841;
+}
+.feature_items{
+	margin-top: 70px;
+}
+.feature_box{
+	width: 31.33%;
+	float: left;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	margin: 15px 1%;
+	cursor: pointer;
+	transition: .3s;
+}
+.feature_box:hover{
+	box-shadow: 0 8px 3px 2px rgb(0, 0, 0, .2);
+}
+.f_icon{
+	float: left;
+	width: 40px;
+	min-height: 50px;
+	margin-right: 25px;
+}
+.f_icon img{
+	width: 100%;
+}
+.f_content{
+	padding-left: 65px;
+}
+.f_content h4{
+	font-size: 20px;
+	color: #010101;
+	margin-bottom: 10px;
+
+}
+.f_content p{
+	color: #898989;
+}
+/*feature css end*/
+/*footer section css start*/
+.footer_section{
+	background: #010101;
+	padding: 60px 0;
+}
+.top_wrapper{
+	width: 60%;
+	margin: 50px auto;
+}
+.top_title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.top_title h1{
+	color: #fcdb00;
+	font-size: 32px;
+}
+.top_title p{
+	color: #898989;
+	font-size: 18px;
+	line-height: 28px;
+}
+.news_button{}
+.news_button input{
+	width: 79%;
+	height: 50px;
+	font-size: 16px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-right: 1%;
+	border-radius: 5px;
+	border: none;
+}
+.news_button input:focus{}
+.news_button button{
+	width: 100px;
+	height: 50px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-weight: 700;
+	background: #fcdb00;
+	border-color:#fcdb00 ;
+	cursor: pointer;
+	margin-left: 1%;
+}
+.news_button button:hover{
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+}
+.social_icon{
+	margin-top: 50px;
+}
+.social_icon ul{
+	text-align: center;
+}
+.social_icon ul li{
+	display: inline-block;
+}
+.social_icon ul li a{
+	width: 35px;
+	height: 35px;
+	font-size: 32px;
+	line-height: 35px;
+	display: block;
+	background: #fcdb00;
+	color: #010101;
+	margin: 0 15px;
+	border-radius: 5px;
+}
+
+/*bottom css*/
+
+.footer_bottom{
+	margin-top: 30px;
+}
+.footer_item{
+	width: 18%;
+	float: left;
+	color: white;
+	margin: 10px 1%;
+}
+.footer_info{}
+.footer_info ul{
+	list-style: none;
+}
+.footer_info ul li{
+	margin: 10px 0;
+}
+.footer_info ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.footer_info ul li a:hover{}
+
+.footer_menu{}
+.footer_menu ul{
+	list-style: none;
+	margin-left: 40px;
+}
+.footer_menu ul li{
+	margin: 5px 0;
+}
+.footer_menu ul li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.footer_menu ul li a:hover{
+	color: #fcdb00;
+}
+
+
+
+
+
+
+/*footer section css end*/
